@@ -49,7 +49,7 @@ start = "vscode-html-language-server --stdio"
     references = true
   
     [languages.html.languageServer.configuration.html.trace]
-    server = "off"
+    server = "on"
 
 [languages.javascript]
 pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.mjs,*.cjs}"
